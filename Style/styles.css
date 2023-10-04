@@ -56,7 +56,6 @@ footer {
 
 .contact {
     text-align: left;
-    vertical-align: text-bottom; 
 }
 .contact1 {
     margin-left: 0px;
@@ -66,3 +65,7 @@ footer {
   .contact2 {
     margin-left: 500px;
   }
+
+.lid {
+    text-align: center;
+}
