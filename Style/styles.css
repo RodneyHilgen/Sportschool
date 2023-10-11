@@ -86,6 +86,17 @@ footer {
   .contact2 {
     margin-left: 590px;
   }
+  .inlog {
+    text-align: left;
+}
+.inlog1 {
+    margin-left: 660px;
+    margin-top: 54px;
+    margin-bottom: 75px;
+  }
+  .inlog2 {
+    margin-left: 590px;
+  }
 
 .lid {
     text-align: center;
