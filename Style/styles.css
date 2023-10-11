@@ -24,6 +24,27 @@ nav ul li a {
     color: white;
     text-decoration: none;
 }
+.navbar{
+min-height: 70px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 24px;
+}
+
+.nav-menu{  display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 60px;
+}
+
+.nav-branding{
+    font-size: 2rem;
+}
+
+.nav-link:hover{
+    color: dodgerblue;
+}
 
 .hero {
     background-image: url('background.jpg');
@@ -69,27 +90,6 @@ footer {
 .lid {
     text-align: center;
 }
-<<<<<<< Updated upstream
-=======
-.navbar {
-
-    background-color:#333;
-    width: 100%;
-    height: 65px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: -10px;
-    border-bottom: black 1px solid;
-}
-
-.nav-menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 60px;
-}
-
->>>>>>> Stashed changes
 footer1 {
     background-color: #333;
     color: white;
