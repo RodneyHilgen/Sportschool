@@ -121,7 +121,6 @@ footer1 {
     display: block;
     width: 25px;
     height: 3px;
-    height: 3px;
     margin: 5px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
@@ -141,6 +140,25 @@ footer1 {
         .hamburger.active .bar:nth-child(3){
             transform: translate(-8px) rotate(-45deg);
 
+        }
+
+        .nav-menu{
+            position: fixed;
+            left: -100%;
+            top: 70px;
+            flex-direction: column;
+            background-color: #333;
+            width: 100%;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .nav-item{
+            margin: 16px 0;
+        }
+
+        .nav-menu.active{
+            left: 0;
         }
 }
   
