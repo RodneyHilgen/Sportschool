@@ -98,6 +98,9 @@ footer {
   .contact2 {
     margin-left: 590px;
   }
+  .opmerking {
+    vertical-align: top;
+  }
   .inlog {
     text-align: left;
 }
