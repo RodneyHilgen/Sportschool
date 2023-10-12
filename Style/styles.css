@@ -87,8 +87,10 @@ gap: 60px;
 footer {
     background-color: #333;
     color: white;
-    padding: 10px 0;
-    text-align: center;
+    padding: 10 px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .contact {
@@ -119,6 +121,8 @@ footer {
 
 .lid {
     text-align: center;
+ 
+    
 }
 footer1 {
     background-color: #333;
