@@ -103,9 +103,14 @@ footer {
   }
   .contact2 {
     margin-left: 530px;
+    padding-bottom: 200px;
   }
   .opmerking {
     vertical-align: top;
+  }
+  .button3{
+    position: relative;
+    top: 25px;
   }
   .inlog {
     text-align: left;
@@ -117,6 +122,7 @@ footer {
   }
   .inlog2 {
     margin-left: 535px;
+    padding-bottom: 200px;
   }
   *{
     margin: 0;
@@ -174,8 +180,6 @@ footer {
     font-weight: 500;
     display: flex;
     align-items: center;
-    margin-bottom: 25px;
-    margin-top: -80px;
   }
   h2 img{
     width: 26px;
