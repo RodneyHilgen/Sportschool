@@ -111,6 +111,16 @@ footer {
   .button3{
     position: relative;
     top: 25px;
+    background: #ff004f;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 50px;
+    margin: 20px 0;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
   }
   .inlog {
     text-align: left;
@@ -184,6 +194,7 @@ footer {
   h2 img{
     width: 26px;
     margin-right: 10px;
+    margin-top: 50px;
   }
   form{
     width: 400px;
